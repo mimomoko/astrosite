@@ -18,6 +18,7 @@ header {
   border-bottom: 1px solid #ccc;
   padding: 1.5rem 0;
 }
+.logo{ width:40px; height:40px; flex:none; }
 .brand { display: flex; align-items: center; gap: .8rem; text-decoration: none; color: inherit; }
 .mark { font-size: 1.6rem; font-weight: bold; margin: 0; }
 .brand p { margin: .2rem 0 0; font-size: .9rem; color: #555; }
