@@ -58,7 +58,7 @@ nav a:hover {
 
 .container:hover .janela {
   position: relative;
-  display: flex;
+  display: block;
   align-items: center;
 }
 
