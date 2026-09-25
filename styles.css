@@ -40,6 +40,9 @@ nav {
   margin-top: -2.7rem;
   justify-content: flex-end;
 }
+nav a:hover {
+ color: #C4C4C4;
+}
 
 .janela {
   display: none;
