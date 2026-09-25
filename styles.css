@@ -19,7 +19,7 @@ header {
   padding: 1.5rem 0;
 }
 .logo{ width:70px; height:70px; flex:none; }
-.brand { display: flex; align-items: center; gap: 0.0rem; text-decoration: none; color: inherit; }
+.brand { display: flex; align-items: center; gap: .4rem; text-decoration: none; color: inherit; }
 .mark { font-size: 1.6rem; font-weight: bold; margin: 0; }
 .brand p { margin: .2rem 0 0; font-size: .9rem; color: #555; }
 .lede { max-width: 500px; font-size: 1.3rem; margin: 1rem 0 0; }
@@ -28,17 +28,14 @@ header {
 .header-top {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-starter;
-  justify-content: space-between;
-  gap: 1rem;
+  align-items: center;
+  gap: 1.5rem;
 }
  
 nav {
   display: flex;
   flex-wrap: wrap;
   gap: .3rem;
-  position: sticky;
- margin-top: .1rem;
 }
 nav a { text-decoration: none; color: #444; padding: .4rem .7rem; white-space: nowrap; }
 nav a[aria-current="page"] { font-weight: bold; color: #2138CE; border-bottom: 2px solid #2138CE; }
