@@ -37,7 +37,8 @@ nav {
   flex-wrap: wrap;
   align-items: center;   /* alinha todos os itens (inclusive o container) na mesma linha */
   gap: .3rem;
-  margin-top: .1rem;
+  margin-top: -2.7rem;
+  justify-content: flex-end;
 }
 
 .janela {
