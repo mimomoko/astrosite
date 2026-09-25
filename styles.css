@@ -38,6 +38,7 @@ nav {
   gap: .3rem;
   margin-top: -2.9rem;
   justify-content: flex-end;
+  align-itens: center;
 }
 
 .janela {
@@ -47,6 +48,7 @@ nav {
   border: 1px solid #ccc;
   padding: 10px;
   width: 200px;
+ top: 100%;
 }
 
 .container:hover .janela {
