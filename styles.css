@@ -32,6 +32,10 @@ nav {
   margin: 1.5rem 0;
   border-bottom: 1px solid #ccc;
   padding-bottom: .5rem;
+  position: sticky;
+  top: 0; 
+  background: #f2f5fc;
+  z-index: 10;
 }
 nav a { text-decoration: none; color: #444; padding: .4rem .7rem; white-space: nowrap; }
 nav a[aria-current="page"] { font-weight: bold; color: #2138CE; border-bottom: 2px solid #2138CE; }
