@@ -35,20 +35,20 @@ header {
 nav {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;   /* alinha todos os itens (inclusive o container) na mesma linha */
   gap: .3rem;
-  margin-top: -2.9rem;
-  justify-content: flex-end;
-  align-itens: center;
 }
 
 .janela {
   display: none;
   position: absolute;
+  top: 100%;              /* gruda o dropdown logo abaixo do "Projetos" */
+  left: 0;
   background-color: #f9f9f9;
   border: 1px solid #ccc;
   padding: 10px;
   width: 200px;
- top: 100%;
+  z-index: 20;
 }
 
 .container:hover .janela {
