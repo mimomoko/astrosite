@@ -24,18 +24,20 @@ header {
 .brand p { margin: .2rem 0 0; font-size: .9rem; color: #555; }
 .lede { max-width: 500px; font-size: 1.3rem; margin: 1rem 0 0; }
 .lede b { color: #0A6E60; }
+
+.header-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
  
 nav {
   display: flex;
   flex-wrap: wrap;
   gap: .3rem;
-  margin: 1.5rem 0;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: .5rem;
   position: sticky;
-  top: 0; 
-  background: #f2f5fc;
-  z-index: 10;
 }
 nav a { text-decoration: none; color: #444; padding: .4rem .7rem; white-space: nowrap; }
 nav a[aria-current="page"] { font-weight: bold; color: #2138CE; border-bottom: 2px solid #2138CE; }
