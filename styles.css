@@ -36,7 +36,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   gap: .3rem;
-  margin-top: .1rem;
+  margin-top: -2.9rem;
   justify-content: flex-end;
 }
 nav a { text-decoration: none; color: #444; padding: .4rem .7rem; white-space: nowrap; }
