@@ -28,7 +28,7 @@ header {
 .header-top {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-starter;
   justify-content: space-between;
   gap: 1rem;
 }
