@@ -45,7 +45,7 @@ nav a:hover {
 }
 
 .janela {
-  display: none;
+  display: block;
   position: absolute;
   top: 100%;              /* gruda o dropdown logo abaixo do "Projetos" */
   left: 0;
@@ -58,7 +58,7 @@ nav a:hover {
 
 .container:hover .janela {
   position: relative;
-  display: block;
+  display: flex;
   align-items: center;
 }
 
